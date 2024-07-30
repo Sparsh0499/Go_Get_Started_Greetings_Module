@@ -33,26 +33,26 @@ The Greetings Module is a simple Go module that provides functionality to genera
 To install and use the Greetings Module, you need to have Go installed on your system. You can download and install Go from the [official website](https://golang.org/dl/).
 
 1. **Clone the repository**:
-   \`\`\`sh
+   ```sh
    git clone https://github.com/Sparsh0499/Go_Get_Started_Greetings_Module.git
    cd Go_Get_Started_Greetings_Module
-   \`\`\`
+   ```
 
 2. **Initialize the module**:
-   \`\`\`sh
+   ```sh
    go mod init greetings
-   \`\`\`
+   ```
 
 3. **Install dependencies**:
-   \`\`\`sh
+   ```sh
    go mod tidy
-   \`\`\`
+   ```
 
 ## Usage
 
 Here is a simple example of how to use the Greetings Module in your Go application:
 
-\`\`\`go
+```go
 package main
 
 import (
@@ -78,15 +78,15 @@ func main() {
     // If no error was returned, print the returned map of messages to the console.
     fmt.Println(messages)
 }
-\`\`\`
+```
 
 ## Testing
 
 To run the unit tests for this module, use the following command:
 
-\`\`\`sh
+```sh
 go test
-\`\`\`
+```
 
 This will execute the tests defined in the module and display the results.
 
